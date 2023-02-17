@@ -1,0 +1,293 @@
+/* index */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Paytone+One&family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+}
+
+:root {
+    --h2-font: 3rem;
+    --h2-color: white;
+    --p-colour: rgb(0, 0, 0);   
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    background-color: rgb(156, 219, 217);   
+}
+
+nav {
+    background-color: rgb(174, 209, 246);
+    border-bottom: solid;
+    font-weight: bold;
+    box-shadow: 0 100px 100px -20px; /*???  NAVBAR HOVER*/
+}
+
+.menu__ul {
+    display: flex;
+    justify-content: right;
+    padding: 25px;
+    gap: 25px;
+    list-style-type: none;
+}
+
+a {
+    color: rgb(89, 11, 11);
+}
+
+div .photo1{
+    width: 150px;    
+    height: 150px;
+    border-radius: 20%;
+    position: relative;
+    top: 20px;
+    
+}  
+
+div .class1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(80, 77, 77);
+    position: relative;
+    top: 45px;
+}
+
+div .class2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(80, 77, 77);
+    position: relative;
+    top: 65px;
+}
+
+div .class3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(80, 77, 77);
+    position: relative;
+    top: 85px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style-type: none;
+    position: relative;
+    top: 120px;
+}
+.image img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+/* img {
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.picture1 {
+    width: 25px;
+    height: 25px;
+} */
+
+
+/* .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+#main {
+    top: 30px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(246, 240, 240, 0.463);
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 25px;
+    text-align: center;
+}
+
+footer .copyright {
+    position: relative;
+    text-align: center;
+    left: 50px;
+    top: 100px;
+}
+/* ABOUT */
+
+/* figure .photo2 {
+    border-radius: 30px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+figure .figcaption1 { 
+    position: relative;
+    top: 110px;
+    left: 225px;
+    font-size: bold;  
+} 
+
+.about-me {
+    position: relative;
+    left: 750px;
+    color: rgb(80, 77, 77);
+    top: 50px;
+} */
+
+footer .copyright1 {
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+.container1 {
+    display: flex;
+}
+
+                                                    /* TRAVEL 
+FAVORITE */
+.favorite {
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    background: url(./image/Travel/Favorite.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-favorite h2 {
+    font-size: 50px;
+    font-size: var(--h2-font);
+    color: var(--h2-color);
+    margin-bottom: 15px;   
+}
+
+.my-favorite p {
+    margin-bottom: 15px;
+    color: var(--p-colour);
+}
+
+                                                /* My Favorite Coutries to Travel  */
+
+.country {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background: rgb(164, 202, 222);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+.photo img {
+    width: 175px;
+    height: 225px;
+    border-radius: 5%;
+    object-fit: cover;
+    filter: brightness(100%);
+    transition: all .3s cubic-bezier(.445, .05, .55, .95);
+    will-change: filter;
+    
+}
+
+
+.photo {
+    margin-left: 50px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto)); 
+   
+}
+
+.country {
+    display: flex;
+}
+
+.explaination {
+    padding: 50px;
+    
+}
+
+.explaination h4 {
+   margin-bottom: 15px;
+}
+
+/* .explaination p {
+    margin-top: 5px;
+} */
+
+                                                                    /* CONTACT */
+.background {
+    position: relative;
+    /* background: rgb(225, 210, 210); */
+    /* background: url(/First-website/image/Travel/Favorite.jpg) */
+    
+}
+.contactbody {
+background: url(./image/contact\ us.jpg);
+background-size: cover;
+}
+.contact {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    
+    display: grid;
+}
+.contact p {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.contact h2 {
+    color: whitesmoke;
+    position: relative;
+    margin-top: 50px; /*????????????*/
+
+}
+
+.contact p {
+    color: whitesmoke;
+}
+
+
+/* CONTACT DETAILS */
+.address {
+    display: inline-flex;
+    color: white;  
+    padding: 20px;
+    background: #15141493;
+}
+
+.maps i {
+    font-size: 30px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 60px;  
+}
+
+.details {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 60px;  
+}
